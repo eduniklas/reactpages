@@ -1,0 +1,152 @@
+[
+    {   "Utbildning": "Utbildningar",
+        "utb":[
+                {
+                "id" : 1,
+                "utbnamn": "Systemutvecklare .NET med AI-kompetens",
+                "startdatum" : "2022-09-05 -",
+                "slutdatum": "2024-04-21",
+                "besk": "YH"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Tränarutbildning",
+                "startdatum" : "2018",
+                "besk" : "Kurs av svenska kampsportsförbundet steg 3"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Tränarutbildning",
+                "startdatum" : "2017",
+                "besk" : "Kurs av svenska kampsportsförbundet steg 2"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Tränarutbildning",
+                "startdatum" : "2017",
+                "besk" : "Kurs av svenska kampsportsförbundet steg 1"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Komvux",
+                "startdatum" : "2014",
+                "besk" : "Kurser under vårtermin"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Torsbergsgymnasiet",
+                "startdatum" : "2010 -",
+                "slutdatum": "2013",
+                "besk" : "Byggprogrammet"
+            },
+            {
+                "id" : 1,
+                "utbnamn": "Hälsingegymnasiet",
+                "startdatum" : "2009 -",
+                "slutdatum": "2010",
+                "besk" : "Teknik"
+            }
+        ]
+    },
+    {
+        "Arbeten": "Arbetslivserfarenheter",
+        "arb":[
+            {
+                "id":2,
+                "Company" : "Tidningstjänst AB",
+                "Position" : "Distrubitör",
+                "Year" : "2020"
+            },
+            {
+                "id":2,
+                "Company" : "Renhgården Resturang",
+                "Position" : "Servitör",
+                "Year" : "2020"
+            },
+            {
+                "id":2,
+                "Company" : "Pelagia AS",
+                "Position" : "Operatör",
+                "Year" : "2019"
+            },
+            {
+                "id":2,
+                "Company" : "Tidningstjänst AB",
+                "Position" : "Distrubitör",
+                "Year" : "2019"
+            },
+            {
+                "id":2,
+                "Company" : "Assemblin Ventilation AB",
+                "Position" : "Ventilationsmontör",
+                "Year" : "2018/2019"
+            },
+            {
+                "id":2,
+                "Company" : "Hemtjänsten",
+                "Position" : "Vårdbiträde",
+                "Year" : "2018"
+            },
+            {
+                "id":2,
+                "Company" : "Edsbyverken",
+                "Position" : "Lagerarbetare",
+                "Year" : "2017"
+            },
+            {
+                "id":2,
+                "Company" : "Postnord",
+                "Position" : "Lagerarbetare",
+                "Year" : "2016"
+            },
+            {
+                "id":2,
+                "Company" : "Eksjö montage AB",
+                "Position" : "Ventilationsmontör",
+                "Year" : "2016"
+            },
+            {
+                "id":2,
+                "Company" : "K ungh",
+                "Position" : "Lagerarbetare",
+                "Year" : "2015"
+            },
+            {
+                "id":2,
+                "Company" : "Svenska fönster",
+                "Position" : "Montör",
+                "Year" : "2015"
+            },
+            {
+                "id":2,
+                "Company" : "Maximatecc",
+                "Position" : "Elektronikmontör",
+                "Year" : "2014"
+            },
+            {
+                "id":2,
+                "Company" : "Losang Bemanning",
+                "Position" : "Lagerarbetare & Ställningsbyggare",
+                "Year" : "2013"
+            },
+            {
+                "id":2,
+                "Company" : "Maximatecc",
+                "Position" : "Elektronikmontör",
+                "Year" : "Sommar 2013"
+            },
+            {
+                "id":2,
+                "Company" : "Holmen Timber",
+                "Position" : "Operatör",
+                "Year" : "Sommar 2012"
+            },
+            {
+                "id":2,
+                "Company" : "Maximatecc",
+                "Position" : "Elektronikmontör",
+                "Year" : "Sommar 2011"
+            }
+        ]
+    }
+]
