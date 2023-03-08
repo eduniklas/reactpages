@@ -11,11 +11,11 @@ export const NavbarComp = (props) => {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ms-auto">
-                    <Nav.Link as={NavLink} to="/">Home</Nav.Link>
-                    <Nav.Link as={NavLink} to="/cv">Cv</Nav.Link>
-                    <Nav.Link as={NavLink} to="/portfolio">Portfolio</Nav.Link>
-                    <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                    <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
+                    <Nav.Link as={NavLink} to="/reactpages">Home</Nav.Link>
+                    <Nav.Link as={NavLink} to="/reactpages/cv">Cv</Nav.Link>
+                    <Nav.Link as={NavLink} to="/reactpages/portfolio">Portfolio</Nav.Link>
+                    <Nav.Link as={NavLink} to="/reactpages/about">About</Nav.Link>
+                    <Nav.Link as={NavLink} to="/reactpages/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

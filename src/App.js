@@ -21,11 +21,11 @@ function App() {
         <NavbarComp/>
         <Header/>
         <Routes>
-          <Route path="/" element={<HomeComp/>}/>
-          <Route path="/cv" element={<CvComp/>}/>
-          <Route path="/portfolio" element={<PortfolioComp/>}/>
-          <Route path="/about" element={<AboutComp/>}/>
-          <Route path="/contact" element={<ContactComp/>}/>
+          <Route path="/reactpages" element={<HomeComp/>}/>
+          <Route path="/reactpages/cv" element={<CvComp/>}/>
+          <Route path="/reactpages/portfolio" element={<PortfolioComp/>}/>
+          <Route path="/reactpages/about" element={<AboutComp/>}/>
+          <Route path="/reactpages/contact" element={<ContactComp/>}/>
         </Routes>
         <SecretComponent/>
         <Footer/>
