@@ -1,12 +1,12 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container} from "react-bootstrap";
 
 export const AboutComp = () =>{
     return (
     <Container className="App">
         <h1 className="wrapp">Presentation av chatgpt</h1>
                 <img id="centerpic"
-                src="./images/profilpic.JPG" width={220}
+                src={require("./images/profilpic.jpg")} width={220}
                 alt="profilpic"/>
                 <p id="space">
                     Lyssna upp, mina vänner, jag ska berätta om den här killen. Han är en riktig karaktär.

@@ -41,7 +41,7 @@ export const ContactComp = () =>{
                 </Col>
                 <Col>
                     <br/><br/><br/>
-                    <img className="rounded wrapp" src="images/elonmars.PNG" alt="elononmars"/>
+                    <img className="rounded wrapp" src={require("./images/elonmars.PNG")} alt="elononmars"/>
                     <h2 className="wrapp">Kontakta mig på</h2>
                     <Button href="tel:+">+46701234567</Button><br/><br/>
                     <Button href="mailto:">niklasniklas@live.se</Button>

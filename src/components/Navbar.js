@@ -15,7 +15,7 @@ export const NavbarComp = (props) => {
                     <Nav.Link as={NavLink} to="/cv">Cv</Nav.Link>
                     <Nav.Link as={NavLink} to="/portfolio">Portfolio</Nav.Link>
                     <Nav.Link as={NavLink} to="/about">About</Nav.Link>
-                    <Nav.Link as={NavLink} to="contact">Contact</Nav.Link>
+                    <Nav.Link as={NavLink} to="/contact">Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Container>

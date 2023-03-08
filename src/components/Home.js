@@ -46,7 +46,7 @@ export const HomeComp = () => {
             <Col md="auto" className="picwrapp">
                 <div>
                     <img className="rounded"
-                    src="./images/jonathan-borba-wJ79V3J8jJA-unsplash.JPG" width={250}
+                    src={require("./images/jonathan-borba-wJ79V3J8jJA-unsplash.jpg")} width={250}
                     alt="bitcoinspaceman"/>
                     <p id="smal">Photo by <a href="https://unsplash.com/pt-br/@jonathanborba?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Borba</a> on <a href="https://unsplash.com/photos/wJ79V3J8jJA?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
                     </p>

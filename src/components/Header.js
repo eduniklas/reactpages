@@ -7,7 +7,7 @@ export const Header = () => {
     <SecretButton/>
         <header>
             <img className="d-block w-100"
-                src="./images/longrainbow.PNG"
+                src={require("./images/longrainbow.png")}
                 alt="rainbow"/>        
         </header>
     </>
