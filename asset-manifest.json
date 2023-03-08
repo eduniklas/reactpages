@@ -1,13 +1,19 @@
 {
   "files": {
     "main.css": "/reactpages/static/css/main.02d9f629.css",
-    "main.js": "/reactpages/static/js/main.6275e4e5.js",
+    "main.js": "/reactpages/static/js/main.2d833283.js",
+    "static/media/longrainbow.png": "/reactpages/static/media/longrainbow.880cf21ebeaa446cccff.png",
+    "static/media/jonathan-borba-wJ79V3J8jJA-unsplash.jpg": "/reactpages/static/media/jonathan-borba-wJ79V3J8jJA-unsplash.37ea05599851592e2a26.jpg",
+    "static/media/profilpic.jpg": "/reactpages/static/media/profilpic.0f5d62d1776a202a478e.jpg",
+    "static/media/elonmars.PNG": "/reactpages/static/media/elonmars.2685f985de6b8ea1c299.PNG",
+    "static/media/instagramicon.PNG": "/reactpages/static/media/instagramicon.142fdd882d3b7988dcf3.PNG",
+    "static/media/githubicon.PNG": "/reactpages/static/media/githubicon.29da997fac4fbb146904.PNG",
     "index.html": "/reactpages/index.html",
     "main.02d9f629.css.map": "/reactpages/static/css/main.02d9f629.css.map",
-    "main.6275e4e5.js.map": "/reactpages/static/js/main.6275e4e5.js.map"
+    "main.2d833283.js.map": "/reactpages/static/js/main.2d833283.js.map"
   },
   "entrypoints": [
     "static/css/main.02d9f629.css",
-    "static/js/main.6275e4e5.js"
+    "static/js/main.2d833283.js"
   ]
 }
