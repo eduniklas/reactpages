@@ -3,7 +3,7 @@ import {Modal, ModalDialog, Button} from "react-bootstrap";
 
 
 const myKey = "niklas";
-let keke ="";
+let keyInput ="";
 export const SecretComponent = ()=>{
     const [letter, setLetter] = useState("");
     const [showA, setShowA] = useState(true);
@@ -14,14 +14,14 @@ export const SecretComponent = ()=>{
     }, [])
     const detectkey = (e) => {
         setLetter(e.key)
-        keke += e.key
+        keyInput += e.key
     }
         
     // useEffect(()=>{
-    //   console.log(keke)
+    //   console.log(keyInput)
     // },[letter])
     
-    if(myKey === keke){
+    if(myKey === keyInput){
         return(
         <>
            <ModalDialog>
@@ -47,7 +47,7 @@ export const SecretComponent = ()=>{
     }
     else{
         setTimeout(()=>{
-            keke="";
+            keyInput="";
         },2000)
     }
 };

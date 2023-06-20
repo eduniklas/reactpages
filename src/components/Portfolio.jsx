@@ -32,7 +32,7 @@ export const PortfolioComp = () => {
         return(  
             <Container className="wrapp">
                 <Row md={2}>
-                    <Col>
+                    <Col xs={8}>
                         <ListGroup>
                             <h4>C# and OOP Project</h4>
                             <p>Group project for school. A bank console app</p>

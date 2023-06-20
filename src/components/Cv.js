@@ -25,13 +25,13 @@ export const CvComp = () => {
                     </Row>
                     <Col xs={1}></Col>                
                     <Row>
-                        <Col xs={9}>
+                        <Col xs={12}>
                             <ListGroup><h2>{Cv.Arbeten}</h2><br/>      
                             <Row md={2}>
                             {Cv.arb && Cv.arb.map(Cvarb =>(
                                 <> 
                                 <ListGroup.Item className="mb-2 rounded" variant="secondary" key={Cvarb.id}>
-                                    <h4>{Cvarb.Company}</h4><p>Position: {Cvarb.Position}<br/>när: {Cvarb.Year}</p>
+                                    <h4>{Cvarb.Company}</h4> <p>Position: {Cvarb.Position}<br/>när: {Cvarb.Year}</p>
                                 </ListGroup.Item>
                                 </>
                             ))}
