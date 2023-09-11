@@ -1,70 +1,43 @@
-# Getting Started with Create React App
+# Labb2.React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# About the task:
 
-## Available Scripts
+This task builds upon Lab 1, and in this one, you will further develop your CV page to include JavaScript and make it more dynamic.
 
-In the project directory, you can run:
+# What you need to do:
 
-### `npm start`
+You should continue building on your CV page from Lab 1, and now ensure that it also meets the following requirements:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**CV in a File**
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+This part should be built with pure JavaScript.
 
-### `npm test`
+- [ ] Your education and previous workplaces should no longer be in the HTML code.
+- [ ] The education you've attended and your previous jobs should be in a separate JSON-format file.
+- [ ] This JSON file should be read and used to generate your CV.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+**Easter Eggs**
 
-### `npm run build`
+This part should be built with pure JavaScript.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- [ ] You should create two Easter eggs on your website that visitors should be able to find.
+- [ ] One of your Easter eggs should be activated when the user clicks on an "odd" part of the website that they typically wouldn't click on. When this part is clicked, the background of the website should change.
+- [ ] Your second Easter egg should be activated when the user types a combination on the keyboard, such as "1337". When the user enters this combination on the keyboard, a fun message should appear in a modal popup.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+**Portfolio**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+This part should be built with React.
 
-### `npm run eject`
+- [ ] Your portfolio should be expanded to fetch public projects from your own GitHub. It should display these projects in your portfolio with their names and descriptions.
+    
+    You can have both these projects and the previous ones that are directly in the HTML code if you want. Or you can replace the previous projects so that only your GitHub projects are displayed.
+    
+- [ ] When the projects are being fetched, there should be information indicating that the projects are loading so that the visitor doesn't wonder why the page is initially empty.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+**VG-kriterier**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+If you aim for an higher grade on this task and in the course, you should pay extra attention to how you implement React. The better the implementation, the greater the chance of achieving an VG.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+You should also incorporate the following:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- [ ] The navigation on the page should be based on React Router so that the entire page effectively runs React. However, most of the content loaded on most pages can be pure HTML and does not need to be fetched as JSON, for example.
