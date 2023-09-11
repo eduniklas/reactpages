@@ -1,5 +1,7 @@
 # Labb2.React
 
+https://eduniklas.github.io/reactpages
+
 # About the task:
 
 This task builds upon Lab 1, and in this one, you will further develop your CV page to include JavaScript and make it more dynamic.
